@@ -22,6 +22,12 @@ function plugin_init_unsticktemplates()
         Change::class => $fn_unstick_templates_id,
         Problem::class => $fn_unstick_templates_id,
     ];
+
+    $PLUGIN_HOOKS[Hooks::POST_PREPAREUPDATE]['unsticktemplates'] = [
+        Ticket::class => $fn_unstick_templates_id,
+        Change::class => $fn_unstick_templates_id,
+        Problem::class => $fn_unstick_templates_id,
+    ];
 }
 
 function plugin_version_unsticktemplates()
