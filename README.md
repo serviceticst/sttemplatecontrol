@@ -4,6 +4,8 @@
 
 **Controls persistent template bindings in GLPI, allowing native template selection based on category, active profile, and entity.**
 
+<img width="2046" height="875" alt="image" src="https://github.com/user-attachments/assets/88dc16f4-6d5f-44aa-86d6-d6ab3dc4091b" />
+
 **ST Template Control** prevents a template saved on a ticket, change or problem from remaining forced during display simply because it is linked to the record. It lets GLPI select the template again using the category, active profile and entity, following GLPI 10-style behaviour.
 
 **Version: 2.0.0.**
