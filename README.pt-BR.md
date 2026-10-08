@@ -4,6 +4,8 @@
 
 **Controla a vinculação persistente dos modelos no GLPI, permitindo a seleção nativa conforme a categoria, o perfil ativo e a entidade.**
 
+<img width="2052" height="895" alt="image" src="https://github.com/user-attachments/assets/b2d81edd-fde0-44d3-962d-45147d7074c4" />
+
 O **ST Template Control** evita que o modelo gravado em um chamado, mudança ou problema continue sendo imposto na exibição apenas por estar vinculado ao registro. O plugin permite que o GLPI volte a selecionar o modelo conforme a categoria, o perfil ativo e a entidade, em um comportamento semelhante ao do GLPI 10.
 
 **Versão: 2.0.0.**
